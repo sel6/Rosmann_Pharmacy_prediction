@@ -40,3 +40,55 @@ time: 2022-05-24 14:25:35,219, function: rename, module: root, message: function
 
 time: 2022-05-24 14:25:35,389, function: rename, module: root, message: function to rename columns 
 
+time: 2022-05-24 15:18:41,892, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:18:43,804, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 15:19:16,376, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:19:52,337, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:19:52,337, function: fill_outliers_mean, module: root, message: fill outliers with mean 
+
+time: 2022-05-24 15:20:02,291, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 15:20:02,666, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:20:02,820, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:20:02,973, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:20:03,123, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:21:52,521, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:21:52,676, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:21:52,841, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:27:13,497, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:27:15,837, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 15:27:55,722, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:28:34,720, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:28:34,720, function: fill_outliers_mean, module: root, message: fill outliers with mean 
+
+time: 2022-05-24 15:28:43,703, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 15:28:43,890, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:28:44,049, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:28:44,203, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:28:44,359, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:30:26,083, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:30:26,239, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:30:26,415, function: rename, module: root, message: function to rename columns 
+

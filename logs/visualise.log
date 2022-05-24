@@ -1,0 +1,68 @@
+time: 2022-05-24 15:38:40,049, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:40,283, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:40,388, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:40,708, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:40,801, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:42,738, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:42,848, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:43,458, function: plot_box2, module: root, message: successfully ploted second plotbox 
+
+time: 2022-05-24 15:38:45,139, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:45,753, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:38:47,232, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:38:47,828, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 15:39:19,906, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:39:20,008, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:39:52,147, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:39:52,209, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 15:39:52,209, function: fill_outliers_mean, module: root, message: fill outliers with mean 
+
+time: 2022-05-24 15:39:53,476, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 15:39:53,852, function: plot_box2, module: root, message: successfully ploted second plotbox 
+
+time: 2022-05-24 15:39:58,842, function: show_distribution, module: root, message: plotted distribution 
+
+time: 2022-05-24 15:39:59,364, function: show_distribution, module: root, message: plotted distribution 
+
+time: 2022-05-24 15:40:00,160, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 15:40:00,346, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:40:00,496, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:40:00,649, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:40:00,801, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:40:34,147, function: heat_map, module: root, message: successfuly drawn hitmap 
+
+time: 2022-05-24 15:41:42,033, function: two_barplot, module: root, message: plotted tow barplots successfully 
+
+time: 2022-05-24 15:41:42,325, function: plot_counts2, module: root, message: successfully plotcount with labels 
+
+time: 2022-05-24 15:41:42,995, function: plot_counts, module: root, message: successfully plotted count 
+
+time: 2022-05-24 15:41:43,757, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:41:43,908, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:41:44,058, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 15:41:44,988, function: barplot, module: root, message: plotted barplot successfully 
+
