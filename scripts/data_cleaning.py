@@ -2,15 +2,19 @@ import pandas as pd
 import numpy as np
 from regex import D
 from data_viz import Data_Viz;
+import logging
+from logging.handlers import TimedRotatingFileHandler
 
 #class responsible for data cleaning
 class DataCleaner:
 
+    logging.basicConfig(filename="../logs/clean.log", level=logging.INFO, format="time: %(asctime)s, function: %(funcName)s, module: %(name)s, message: %(message)s \n")
     def __init__(self) -> None:
         self.summar = Data_Viz() 
         
     def rename(self, df:pd.DataFrame, col:str, old:str, new:str):
         df[col] = df[col].replace([old], new)
+        logging.info("function to rename columns")
         return(df[col].value_counts().index)
 
     def replace_rows_str(self, df:pd.DataFrame, col:str):
@@ -18,6 +22,7 @@ class DataCleaner:
         df[col] = df[col].apply(str)
         df[col] = df[col].astype(str)
         df[col] = df[col].values.astype(str)
+        logging.info("function to change to string")
         return(df[col].value_counts().index)
     
     def fill_outliers_mean(self, df, cols):
@@ -34,7 +39,7 @@ class DataCleaner:
                     df_temp.loc[index,col] = np.nan
 
             df_temp = self.fill_missing_by_median(df_temp, cols)
-
+        logging.info("fill outliers with mean")
         return df_temp
 
 
@@ -52,6 +57,7 @@ class DataCleaner:
                     rm_lis.append(index)
 
             df_temp.drop(rm_lis, inplace = True)
+            logging.info("remove outliers")
 
         return df_temp
     
@@ -61,6 +67,7 @@ class DataCleaner:
         else:
             r_df = df.drop(cols, axis=1)
 
+        logging.info("drop columns")
         return r_df
 
     def reduce_dim_missing(self, df,limit):
@@ -89,7 +96,7 @@ class DataCleaner:
         
         for col in mod_fill_list:
             df[col] = df[col].fillna(df[col].mode()[0])
-        
+        logging.info("fill missing by mode")        
         return df
 
 
@@ -109,6 +116,7 @@ class DataCleaner:
         for col in mean_fill_list:
             df[col] = df[col].fillna(df[col].median())
         
+        logging.info("fill missing by mean")
         return df
 
     def fill_missing_by_median(self, df, cols=None):
@@ -126,6 +134,8 @@ class DataCleaner:
 
         for col in median_fill_list:
             df[col] = df[col].fillna(df[col].median())
+
+        logging.info("fill missing by median")
         return df
 
 
@@ -133,6 +143,7 @@ class DataCleaner:
         
         for col in cols:
             df[col] = df[col].fillna(method='ffill')
+
         return df
 
     def fill_missing_backward(self, df, cols):

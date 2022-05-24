@@ -5,9 +5,9 @@ import seaborn as sns
 
 class Data_Viz:
     
-    def barplot(self, df:pd.DataFrame, x:str):
+    def barplot(self, df:pd.DataFrame, cols, x:str):
         plot_df = df[cols]
-        plt.figure(figsize=(25, 12))
+        plt.figure(figsize=(10, 10))
         sns.countplot(x=x, data=plot_df)
     
     def two_barplot(self, df:pd.DataFrame, df2:pd.DataFrame, t1:str, t2:str, t3:str, t4:str, t5:str, t6:str):
