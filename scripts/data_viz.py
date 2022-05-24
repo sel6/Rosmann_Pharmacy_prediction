@@ -5,6 +5,11 @@ import seaborn as sns
 
 class Data_Viz:
     
+    def barplot(self, df:pd.DataFrame, x:str):
+        plot_df = df[cols]
+        plt.figure(figsize=(25, 12))
+        sns.countplot(x=x, data=plot_df)
+    
     def two_barplot(self, df:pd.DataFrame, df2:pd.DataFrame, t1:str, t2:str, t3:str, t4:str, t5:str, t6:str):
         fig, (axis1,axis2) = plt.subplots(1,2,figsize=(12,4))
         sns.barplot(x=t1, y=t2, data=df, ax=axis1).set_title(t3)
@@ -32,7 +37,7 @@ class Data_Viz:
     
     def heat_map(self, df:pd.DataFrame):
         plt.figure(figsize=(10,9))
-        sns.heatmap(sales_customers.corr(), linewidths=0.1, vmax=1.0, 
+        sns.heatmap(df.corr(), linewidths=0.1, vmax=1.0, 
             square=True, cmap=plt.cm.RdBu, linecolor='white', annot=True)
     
     def binom_distribution(self, C_aware, C_total, C_cr, E_cr) -> None:
