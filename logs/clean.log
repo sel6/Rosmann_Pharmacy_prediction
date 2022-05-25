@@ -1,0 +1,42 @@
+INFO:root:function to change to string
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+INFO:root:function to rename columns
+time: 2022-05-24 14:16:21,806, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:16:24,901, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 14:17:00,273, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:17:39,346, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:22:15,702, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:22:17,883, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 14:22:54,183, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:23:31,769, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 14:23:31,769, function: fill_outliers_mean, module: root, message: fill outliers with mean 
+
+time: 2022-05-24 14:23:40,863, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 14:23:41,130, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:23:41,294, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:23:41,456, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:23:41,611, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:25:35,042, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:25:35,219, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 14:25:35,389, function: rename, module: root, message: function to rename columns 
+
