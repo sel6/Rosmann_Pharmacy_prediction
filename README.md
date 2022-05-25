@@ -32,6 +32,18 @@ build and serve an end-to-end product that delivers this prediction to analysts 
 **StateHoliday** - indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public 
 holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
 
+## Notebooks
+**EDA.ipynb** - Exploratory data analysis
+
+**Preprocessing.ipynb** - Preprocessing of sales prediction notebook
+
+## Scripts
+**visualisation** - script with functions in relation to data visualisation
+
+**transforming** - script with functions in relation to data transformation
+
+**cleaning** - script with functions in relation to data cleaning
+
 **SchoolHoliday** - indicates if the (Store, Date) was affected by the closure of public schools
 
 **StoreType** - differentiates between 4 different store models: a, b, c, d
