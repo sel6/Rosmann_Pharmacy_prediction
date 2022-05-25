@@ -6,6 +6,12 @@ The finance team in Rosmann Pharmaceuticals wants to forecast sales in all their
 ## Project Objective
 build and serve an end-to-end product that delivers this prediction to analysts in the finance team. 
 
+## Data
+**train.csv** - train set csv file
+**test.csv** - test set csv file
+**sample.csv** - sample csv file
+**store.csv** - store file
+
 ## Pipeline Design
 ![Pipeline Design](./pipeline.png)
 
