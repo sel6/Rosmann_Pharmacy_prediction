@@ -8,8 +8,11 @@ build and serve an end-to-end product that delivers this prediction to analysts 
 
 ## Data
 **train.csv** - train set csv file
+
 **test.csv** - test set csv file
+
 **sample.csv** - sample csv file
+
 **store.csv** - store file
 
 ## Pipeline Design
