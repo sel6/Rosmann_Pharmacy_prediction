@@ -14,7 +14,7 @@ jobs:
         run: |
           # work
           cat outputs/output1.txt >> report.md
-          cml publish charts/assortment_sales_customers.png --md >> report.md
-          cml publish charts/sales_cust_corr.png --md >> report.md
-          cml publish charts/train_promo_dist2.png --md >> report.md
+          #cml publish charts/assortment_sales_customers.png --md >> report.md
+          #cml publish charts/sales_cust_corr.png --md >> report.md
+          cml publish image/image_2022-05-26_101702757.png --md >> report.md
           cml send-comment report.md
