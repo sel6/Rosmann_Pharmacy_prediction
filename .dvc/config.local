@@ -1,0 +1,2 @@
+['remote "selu_dvc"']
+    gdrive_service_account_json_file_path = ../dvc_key.json
