@@ -66,3 +66,333 @@ time: 2022-05-24 15:41:44,058, function: rename, module: root, message: function
 
 time: 2022-05-24 15:41:44,988, function: barplot, module: root, message: plotted barplot successfully 
 
+time: 2022-05-24 15:58:41,095, function: barplot, module: root, message: plotted barplot successfully 
+
+time: 2022-05-24 16:03:27,325, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:27,660, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:27,715, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:28,155, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:28,375, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:31,040, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:31,180, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:36,554, function: plot_box2, module: root, message: successfully ploted second plotbox 
+
+time: 2022-05-24 16:03:38,040, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:38,534, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 16:03:39,915, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:03:40,648, function: fill_missing_by_mode, module: root, message: fill missing by mode 
+
+time: 2022-05-24 16:04:17,196, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:04:17,319, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 16:04:53,536, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:04:53,623, function: fill_missing_by_median, module: root, message: fill missing by median 
+
+time: 2022-05-24 16:04:53,623, function: fill_outliers_mean, module: root, message: fill outliers with mean 
+
+time: 2022-05-24 16:04:55,125, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 16:04:55,541, function: plot_box2, module: root, message: successfully ploted second plotbox 
+
+time: 2022-05-24 16:05:07,347, function: show_distribution, module: root, message: plotted distribution 
+
+time: 2022-05-24 16:05:07,925, function: show_distribution, module: root, message: plotted distribution 
+
+time: 2022-05-24 16:05:11,357, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 16:05:11,713, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:05:11,871, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:05:12,024, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:05:12,185, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:05:52,285, function: heat_map, module: root, message: successfuly drawn hitmap 
+
+time: 2022-05-24 16:07:07,561, function: two_barplot, module: root, message: plotted tow barplots successfully 
+
+time: 2022-05-24 16:07:08,053, function: plot_counts2, module: root, message: successfully plotcount with labels 
+
+time: 2022-05-24 16:07:08,938, function: plot_counts, module: root, message: successfully plotted count 
+
+time: 2022-05-24 16:07:09,760, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:07:09,997, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:07:10,214, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 16:07:11,292, function: barplot, module: root, message: plotted barplot successfully 
+
+time: 2022-05-24 16:07:16,559, function: barplot, module: root, message: plotted barplot successfully 
+
+time: 2022-05-24 18:23:04,903, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 18:41:09,194, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 18:48:37,548, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 19:01:52,699, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 19:06:11,829, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 19:19:18,543, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-24 20:07:26,856, function: heat_map, module: root, message: successfuly drawn hitmap 
+
+time: 2022-05-24 20:54:42,028, function: scaler, module: root, message: scale data 
+
+time: 2022-05-24 21:00:28,583, function: sep_cat_num, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-24 21:11:35,592, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-24 21:15:31,997, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:24:23,105, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-24 21:24:39,510, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:24:39,744, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:24:40,004, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:24:40,465, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:25:54,109, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:25:54,134, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:25:54,149, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:25:54,173, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:26:13,865, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-24 21:27:11,848, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:27:12,065, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:27:12,377, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:27:12,820, function: rename, module: root, message: function to rename columns 
+
+time: 2022-05-24 21:27:15,550, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-24 21:27:22,265, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:27:43,159, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:28:30,349, function: scaler, module: root, message: scale data 
+
+time: 2022-05-24 21:41:07,756, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:41:07,816, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-24 21:43:03,188, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:43:07,342, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:43:07,389, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-24 21:43:40,974, function: scaler, module: root, message: scale data 
+
+time: 2022-05-24 21:45:57,621, function: scaler, module: root, message: scale data 
+
+time: 2022-05-24 22:08:27,743, function: summ_columns, module: root, message: summary columns! 
+
+time: 2022-05-25 09:08:33,286, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 09:15:21,996, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 09:17:04,889, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 09:17:08,142, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 09:20:10,762, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 09:20:44,783, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:21:07,076, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:22:06,924, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:22:16,107, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:34:17,711, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 09:34:19,561, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 09:34:21,764, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:34:51,244, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:34:53,570, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 09:35:01,142, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 09:36:49,408, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:37:07,776, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:37:13,060, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 09:37:16,697, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 09:40:18,777, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:41:03,411, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:41:19,860, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 09:41:29,315, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 09:54:28,036, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 09:54:30,338, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 09:54:35,616, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 09:55:01,824, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 09:55:10,495, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 09:55:14,240, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 10:13:22,582, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 10:13:23,812, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 10:13:25,508, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 10:13:42,830, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 10:13:45,443, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 10:13:49,490, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 10:35:39,575, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 10:35:42,159, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 10:35:48,135, function: heat_map, module: root, message: successfuly drawn hitmap 
+
+time: 2022-05-25 10:39:12,617, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 10:39:20,472, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 10:53:27,172, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 10:53:29,715, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 10:53:33,961, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 10:53:39,813, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 11:21:02,943, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 11:22:46,470, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 11:22:48,320, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 11:22:51,780, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 11:22:53,845, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 11:26:31,037, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 11:26:32,303, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 11:26:56,280, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 11:26:58,050, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 11:26:58,094, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 11:26:58,822, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 11:37:23,475, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 11:45:26,387, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 11:45:31,034, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 11:59:58,304, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 12:00:42,253, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 12:00:49,882, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 12:00:58,855, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 13:28:03,341, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 14:22:39,562, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 14:23:37,367, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 14:23:38,637, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 14:23:38,862, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 14:23:39,429, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 15:28:19,904, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 15:28:20,864, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 15:28:20,926, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 15:28:21,491, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 16:04:16,992, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 16:04:45,692, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 16:07:48,375, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 16:07:50,684, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 16:07:50,795, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 16:07:51,618, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 16:51:57,890, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 16:52:02,933, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 16:52:10,015, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 16:52:12,347, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 16:52:12,524, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 16:52:12,855, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-25 17:00:10,389, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 17:02:44,414, function: heat_map, module: root, message: successfuly drawn hitmap 
+
+time: 2022-05-25 17:12:24,564, function: catagory, module: root, message: differentiate catagorical vs numerical 
+
+time: 2022-05-25 17:12:27,857, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-25 17:12:30,525, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-25 17:12:33,458, function: scaler, module: root, message: scale data 
+
+time: 2022-05-25 17:12:34,315, function: target_feature, module: root, message: target and feature separated 
+
+time: 2022-05-25 17:12:38,712, function: set_splitter, module: root, message: data splitter 
+
