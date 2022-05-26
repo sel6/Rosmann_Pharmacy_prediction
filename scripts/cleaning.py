@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from regex import D
-from data_viz import Data_Viz;
+from vizualisation import Data_Viz
 import logging
 from logging.handlers import TimedRotatingFileHandler
 

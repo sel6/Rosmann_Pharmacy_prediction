@@ -5,6 +5,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import FunctionTransformer
+import logging
+from logging.handlers import TimedRotatingFileHandler
 
 class DataTransformer:
     def __init__(self) -> None:
