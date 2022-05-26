@@ -13,7 +13,7 @@ jobs:
           GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
         run: |
           # work
-          cat outputs/output1.txt >> report.md
+          #cat outputs/output1.txt >> report.md
           #cml publish charts/assortment_sales_customers.png --md >> report.md
           #cml publish charts/sales_cust_corr.png --md >> report.md
           cml publish image/image_2022-05-26_101702757.png --md >> report.md
