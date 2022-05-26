@@ -1,0 +1,20 @@
+name: model-training
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: iterative/setup-cml@v1
+      - name: EDA analysis
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+        run: |
+          # work
+          cat outputs/output1.txt >> report.md
+          cml publish charts/assortment_sales_customers.png --md >> report.md
+          cml publish charts/sales_cust_corr.png --md >> report.md
+          cml publish charts/train_promo_dist2.png --md >> report.md
+          cml send-comment report.md
