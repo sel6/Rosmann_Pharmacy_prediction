@@ -54,25 +54,20 @@ class Data_Viz:
         fig = plt.figure(figsize =(10, 7))
         
         for col in columns:
-            # Creating plot
+           
             plt.boxplot(df[columns])
             plt.title(f'Plot of {col}', size=20, fontweight='bold')
             ax = plt.gca()
             ax.set_ylim(top = df[col].quantile(0.9999))
             ax.set_ylim(bottom = 0)
-            # show plot
+
             plt.show()
 
     def plot_box2(self, df:pd.DataFrame, col:str)->None:
-        """
-        Boxplot plotting function.
-        """
         plt.boxplot(df[col])
         plt.title(f'Plot of {col}', size=20, fontweight='bold')
         ax = plt.gca()
-        #ax.set_ylim(top = df[col].quantile(0.9999))
-        #ax.set_ylim(bottom = 0)
-        # show plot
+    
         plt.show()
 
 
