@@ -1,0 +1,26 @@
+time: 2022-05-27 12:18:32,777, function: difference, module: root, message: differnced time series data! 
+
+time: 2022-05-27 12:19:20,257, function: corrPlots, module: root, message: plotted autocorrelation! 
+
+time: 2022-05-27 12:20:33,518, function: partial, module: root, message:  auto correlation plotted! 
+
+time: 2022-05-27 12:20:33,582, function: corrPlots, module: root, message: plotted autocorrelation! 
+
+time: 2022-05-27 12:38:09,737, function: _initialize_nodes_and_concrete_functions, module: absl, message: Found untraced functions such as lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_layer_call_fn while saving (showing 5 of 10). These functions will not be directly callable after loading. 
+
+time: 2022-05-27 12:38:55,090, function: _initialize_nodes_and_concrete_functions, module: absl, message: Found untraced functions such as lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_layer_call_fn while saving (showing 5 of 10). These functions will not be directly callable after loading. 
+
+time: 2022-05-27 12:39:13,346, function: copy_assets_to_destination_dir, module: tensorflow, message: Assets written to: ../models/LSTM_sales_model{time}.pkl\assets 
+
+time: 2022-05-27 15:06:59,082, function: difference, module: root, message: differnced time series data! 
+
+time: 2022-05-27 15:08:30,479, function: difference, module: root, message: differnced time series data! 
+
+time: 2022-05-27 15:08:39,556, function: difference, module: root, message: differnced time series data! 
+
+time: 2022-05-27 15:09:10,974, function: corrPlots, module: root, message: plotted autocorrelation! 
+
+time: 2022-05-27 15:09:25,207, function: partial, module: root, message:  auto correlation plotted! 
+
+time: 2022-05-27 15:09:25,294, function: corrPlots, module: root, message: plotted autocorrelation! 
+
