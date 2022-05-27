@@ -13,7 +13,7 @@ class DataTransformer:
         logging.basicConfig(filename="../logs/clean.log", level=logging.INFO, format="time: %(asctime)s, function: %(funcName)s, module: %(name)s, message: %(message)s \n")
         
 
-    def sep_cat_num(self, df):
+    def cat_num(self, df):
         categorical_columns = df.select_dtypes(include='object')
         numerical_columns = df.select_dtypes(exclude='object')
         logging.info("differentiate catagorical vs numerical")
@@ -44,10 +44,9 @@ class DataTransformer:
         return scaled
 
     def target_feature(self, df, f_r, t):
-        features = df.iloc[:,f_r[0]:f_r[1]].values
-        target = df.iloc[:,t].values
-        logging.info("target and feature separated")
         
+        features = (df.drop(df.columns[[t]], axis = 1)).values
+        target = df.iloc[:,t].values
         return features, target
 
     def set_splitter(self, input, test, val, rand_state):
