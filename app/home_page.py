@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import sys
-sys.path.insert(1, '../models')
 
 def welcome():
     st.header('Rosmann Pharmaceuticals')
