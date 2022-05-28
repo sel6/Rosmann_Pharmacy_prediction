@@ -92,3 +92,79 @@ time: 2022-05-24 15:30:26,239, function: rename, module: root, message: function
 
 time: 2022-05-24 15:30:26,415, function: rename, module: root, message: function to rename columns 
 
+time: 2022-05-26 14:45:18,279, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-26 14:45:45,999, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-26 14:45:49,351, function: scaler, module: root, message: scale data 
+
+time: 2022-05-26 14:45:50,622, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-26 18:27:17,188, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-26 18:27:31,754, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-26 18:27:35,638, function: scaler, module: root, message: scale data 
+
+time: 2022-05-26 18:27:38,091, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-27 16:19:52,990, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-27 16:20:30,953, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-27 16:20:33,394, function: scaler, module: root, message: scale data 
+
+time: 2022-05-27 16:20:34,089, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-27 23:53:01,631, function: _initialize_nodes_and_concrete_functions, module: absl, message: Found untraced functions such as lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_layer_call_fn while saving (showing 5 of 10). These functions will not be directly callable after loading. 
+
+time: 2022-05-27 23:53:09,439, function: copy_assets_to_destination_dir, module: tensorflow, message: Assets written to: ../models/LSTM_sales_model{time}.pkl\assets 
+
+time: 2022-05-27 23:54:01,706, function: _initialize_nodes_and_concrete_functions, module: absl, message: Found untraced functions such as lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_layer_call_fn while saving (showing 5 of 10). These functions will not be directly callable after loading. 
+
+time: 2022-05-27 23:55:06,175, function: copy_assets_to_destination_dir, module: tensorflow, message: Assets written to: ../models/LSTM_sales_model{time}.pkl\assets 
+
+time: 2022-05-28 03:47:12,851, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-28 03:47:23,870, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 03:47:27,431, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 03:47:28,557, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:05:15,277, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-28 09:05:27,208, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 09:05:29,164, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 09:05:29,972, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:06:28,689, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 09:06:29,425, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 09:06:29,668, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:07:50,889, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 09:07:51,830, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 09:07:52,009, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:08:15,375, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 09:08:16,062, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 09:08:16,229, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:11:53,803, function: replace_rows_str, module: root, message: function to change to string 
+
+time: 2022-05-28 09:12:10,088, function: cat_labeler, module: root, message: label category 
+
+time: 2022-05-28 09:12:10,992, function: scaler, module: root, message: scale data 
+
+time: 2022-05-28 09:12:11,240, function: set_splitter, module: root, message: data splitter 
+
+time: 2022-05-28 09:25:02,495, function: replace_rows_str, module: root, message: function to change to string 
+
