@@ -1,1 +1,6 @@
 matplotlib
+pandas
+scikit_learn
+tensorflow
+statsmodels
+streamlit
