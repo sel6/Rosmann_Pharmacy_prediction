@@ -1,17 +1,15 @@
-CREATE TABLE IF NOT EXISTS `Sales` 
+DROP TABLE IF EXISTS `rosmannfeatures`;
+CREATE TABLE IF NOT EXISTS `rosmannfeatures` 
 (
-    ['Month', 'PromoInterval', 'Assortment', 'StoreType','WeekOfYear', 
-    'DayOfWeek', 'DayOfMonth', 'Promo', 'Store', 'CompetitionDistance', 'Open']
-   
-    `open` INT NOT NULL,
-    `competition_distance` INT NOT NULL,
-    `store` INT NOT NULL,
-    `promo` INT Not NULL,
-    `day_of_month` INT NOT NULL,
-    `day_of_week` INT NOT NULL,
-    `week_of_year` INT NOT NULL,
-    `store_type` TEXT DEFAULT NULL,
-    `assortment` TEXT DEFAULT NULL,
-    `month` INT NOT NULL
+    `Store` INT NOT NULL,
+    `DayOfWeek` INT NOT NULL,
+    `Sales`  INT NOT NULL,
+    `Customer` INT NOT NULL,
+    `Open` INT NOT NULL,
+    `Promo` INT NOT NULL,
+    `StateHoliday` INT NOT NULL,
+    `StoreType` TEXT NOT NULL,
+    `Assortment` TEXT NOT NULL,
+    `CompetitionDistance` TEXT NOT NULL
 )
 ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_unicode_ci;
