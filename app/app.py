@@ -7,7 +7,7 @@ def welcome():
     st.markdown("<h1 style='padding:2rem;text-align:center; background-color:green;color:black;font-size:1.8rem;border-radius:0.8rem;'>Rosmann Pharmaceuticals</h1>", unsafe_allow_html=True)
     st.write("---")
     st.markdown("<p style='font-famly:Arial, Helvetica, sans-serif;'>Rossmann is one of the largest drug store chains in Europe with around 56,200 employees and more than 4000 stores. In 2019 Rossmann had more than €10 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.</p1>", unsafe_allow_html=True)
-    st.image('image/rosmann.jpg')
+    st.image('rosmann.jpg')
 
 
 def app_purpose():
